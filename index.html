@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENEM+ | Plataforma de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ENEM<span>+</span></h1>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#questoes">Questões</a>
+            <a href="#desempenho">Desempenho</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Seu futuro começa com a preparação.</h2>
+            <p>Estude, pratique e conquiste sua vaga na universidade.</p>
+        </section>
+
+        <section class="dashboard">
+            <div class="stat-card">
+                <h3>Questões respondidas</h3>
+                <p id="totalRespondidas">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Acertos</h3>
+                <p id="totalAcertos">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Aproveitamento</h3>
+                <p id="aproveitamento">0%</p>
+            </div>
+        </section>
+
+        <section id="questoes">
+            <h2>Praticar questões</h2>
+
+            <select id="ano">
+                <option value="">Selecione o ano</option>
+            </select>
+
+            <button id="carregarQuestoes">
+                Buscar questões
+            </button>
+
+            <div id="listaQuestoes"></div>
+        </section>
+
+        <section id="desempenho">
+            <h2>Seu desempenho</h2>
+            <p>Continue praticando para melhorar seus resultados!</p>
+        </section>
+    </main>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

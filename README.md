@@ -1,6 +1,6 @@
 # 📚 ENEM+
 
-O ENEM+ é um site desenvolvido para ajudar estudantes a se prepararem para o Exame Nacional do Ensino Médio (ENEM), por meio de questões de provas anteriores.
+O **ENEM+** é uma plataforma desenvolvida para auxiliar estudantes na preparação para o **Exame Nacional do Ensino Médio (ENEM)**, permitindo a prática por meio de questões de provas anteriores.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -13,14 +13,14 @@ O ENEM+ é um site desenvolvido para ajudar estudantes a se prepararem para o Ex
 
 - Seleção de provas por ano.
 - Consulta de questões do ENEM.
-- Resolução de questões.
-- Correção automática.
-- Acompanhamento de acertos e erros.
+- Resolução de questões diretamente pela plataforma.
+- Correção automática das respostas.
+- Acompanhamento da quantidade de acertos e erros.
 - Salvamento do desempenho no navegador.
 
 ## 🔗 API utilizada
 
-[ENEM API](https://github.com/yunger7/enem-api)
+[ENEM API](https://github.com/yunger7/enem-api?utm_source=chatgpt.com)
 
 ## 📁 Estrutura do projeto
 
@@ -39,14 +39,19 @@ enem-estudos/
 
 ## ▶️ Como executar
 
-1. Clone o repositório.
-2. Abra a pasta no VS Code.
-3. Execute o arquivo `index.html` com a extensão Live Server.
+1. Clone este repositório:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+2. Abra a pasta do projeto no **VS Code**.
+3. Instale ou utilize a extensão **Live Server**.
+4. Execute o arquivo `index.html`.
 
 ## 🎯 Objetivo
 
-Facilitar os estudos e ajudar estudantes a melhorarem seu desempenho no ENEM.
-
+O ENEM+ tem como objetivo tornar a prática para o ENEM mais acessível e organizada, oferecendo uma ferramenta simples para que estudantes possam resolver questões, acompanhar seu desempenho e identificar seus resultados.
 ---
 
-**ENEM+ — Estude hoje, conquiste seu futuro! 🎓**
+**ENEM+ — Estude hoje, prepare-se para o amanhã. 🎓**

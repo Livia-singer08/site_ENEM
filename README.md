@@ -49,7 +49,7 @@ git clone <URL_DO_REPOSITORIO>
 3. Instale ou utilize a extensão **Live Server**.
 4. Execute o arquivo `index.html`.
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 O ENEM+ tem como objetivo tornar a prática para o ENEM mais acessível e organizada, oferecendo uma ferramenta simples para que estudantes possam resolver questões, acompanhar seu desempenho e identificar seus resultados.
 ---
